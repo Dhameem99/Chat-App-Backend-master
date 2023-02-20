@@ -19,7 +19,7 @@ app.use("/users", userRouter);
 const server = require("http").createServer(app);
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://euphonious-kangaroo-66f8e5.netlify.app",
     methods: ["GET", "POST"],
   },
 });
